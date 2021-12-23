@@ -1,0 +1,21 @@
+.video {
+	&-remote {
+		width: 100%;
+		height: 90vh;
+		border-radius: 4px;
+		background-color: red;
+	}
+
+	&-local {
+		background-color: blue;
+		position: absolute;
+		right: 1.5rem;
+		bottom: 1.5rem;
+		width: 13vw;
+		height: 10vw;
+		min-width: 13rem;
+		min-height: 10rem;
+		border: 3px solid white;
+		border-radius: 4px;
+	}
+}

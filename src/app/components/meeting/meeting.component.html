@@ -1,0 +1,9 @@
+<video #remoteVideo class="video-remote" autoplay playsinline></video>
+<video #localVideo class="video-local" autoplay playsinline></video>
+
+<input #id type="text">
+<button (click)="joinCall(id.value)">Join Call</button>
+<button (click)="startCall()">Start Call</button>
+
+<input #text type="text">
+<button (click)="sendMessage(text.value)">Send</button>
